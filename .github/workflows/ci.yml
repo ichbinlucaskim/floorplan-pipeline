@@ -1,11 +1,15 @@
 name: CI
 
-# NOTE: floorplan-pipeline is a local-integration repo — it imports the five
-# sibling component repos as editable installs. CI therefore needs all sibling
-# repos checked out into the parent directory (a workspace checkout). Adjust the
-# `repository:`/`path:` values below to your org once the repos are hosted; the
-# default checkout assumes a single workspace clone containing every repo under
-# ../ (the same layout `make setup` expects).
+# Polyrepo CI: floorplan-pipeline is the integration repo — it imports all six
+# sibling repos as editable installs. CI recreates the local side-by-side layout
+# by checking out this repo plus every sibling into sibling paths, then runs the
+# end-to-end integration tests. See aec-schema ADR (Option A + pinned contract).
+#
+# Pinning policy:
+#   - aec-schema is the stable contract -> pinned to tag v0.1.0.
+#   - the five component repos still move -> tracked at main for now (they will
+#     get pinned once tagged; see ADR follow-ups).
+# Public repos -> no PAT needed for the sibling checkouts.
 
 on:
   push:
@@ -20,21 +24,63 @@ jobs:
         python-version: ["3.11", "3.12"]
 
     steps:
-      - name: Checkout workspace (all sibling repos)
+      - name: Checkout floorplan-pipeline
         uses: actions/checkout@v4
         with:
-          # A workspace checkout that contains aec-schema, wall-extract,
-          # panel-decompose, framing-synth, assembly-sequence, aec-ifc-export,
-          # and floorplan-pipeline as sibling directories.
-          path: aec-project
+          path: floorplan-pipeline
+
+      - name: Checkout aec-schema contract (pinned)
+        uses: actions/checkout@v4
+        with:
+          repository: ichbinlucaskim/aec-schema
+          ref: v0.1.0
+          path: aec-schema
+
+      - name: Checkout wall-extract
+        uses: actions/checkout@v4
+        with:
+          repository: ichbinlucaskim/wall-extract
+          ref: main
+          path: wall-extract
+
+      - name: Checkout panel-decompose
+        uses: actions/checkout@v4
+        with:
+          repository: ichbinlucaskim/panel-decompose
+          ref: main
+          path: panel-decompose
+
+      - name: Checkout framing-synth
+        uses: actions/checkout@v4
+        with:
+          repository: ichbinlucaskim/framing-synth
+          ref: main
+          path: framing-synth
+
+      - name: Checkout assembly-sequence
+        uses: actions/checkout@v4
+        with:
+          repository: ichbinlucaskim/assembly-sequence
+          ref: main
+          path: assembly-sequence
+
+      - name: Checkout aec-ifc-export
+        uses: actions/checkout@v4
+        with:
+          repository: ichbinlucaskim/aec-ifc-export
+          ref: main
+          path: aec-ifc-export
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
 
+      # Order matters: aec-schema is not on PyPI, so the editable contract must be
+      # installed first; the other siblings (and this package, which lists them
+      # all) resolve from the editable installs already in the env.
       - name: Install component repos (editable) + this package
-        working-directory: aec-project/floorplan-pipeline
+        working-directory: floorplan-pipeline
         run: |
           pip install -e ../aec-schema
           pip install -e ../wall-extract
@@ -45,9 +91,9 @@ jobs:
           pip install -e ".[dev]"
 
       - name: Lint
-        working-directory: aec-project/floorplan-pipeline
+        working-directory: floorplan-pipeline
         run: ruff check src/ tests/
 
       - name: Test
-        working-directory: aec-project/floorplan-pipeline
+        working-directory: floorplan-pipeline
         run: python -m pytest tests/ -v
