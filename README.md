@@ -39,12 +39,12 @@ room polygons → wall-extract → panel-decompose → framing-synth ┬→ aec-
 
 | Stage | Repo | Input → Output |
 |---|---|---|
-| Wall extraction | [wall-extract](../wall-extract) | room polygons → wall segments |
-| Panel decomposition | [panel-decompose](../panel-decompose) | walls → transport panels |
-| Framing synthesis | [framing-synth](../framing-synth) | panels → studs/plates/headers + BOM |
-| Assembly sequence | [assembly-sequence](../assembly-sequence) | framing → fabrication order (DAG) |
-| IFC export | [aec-ifc-export](../aec-ifc-export) | all → IFC4 (`IfcElementAssembly` + `IfcMember`) |
-| Data contract | [aec-schema](../aec-schema) | JSON Schema linking every stage |
+| Wall extraction | [wall-extract](https://github.com/ichbinlucaskim/wall-extract) | room polygons → wall segments |
+| Panel decomposition | [panel-decompose](https://github.com/ichbinlucaskim/panel-decompose) | walls → transport panels |
+| Framing synthesis | [framing-synth](https://github.com/ichbinlucaskim/framing-synth) | panels → studs/plates/headers + BOM |
+| Assembly sequence | [assembly-sequence](https://github.com/ichbinlucaskim/assembly-sequence) | framing → fabrication order (DAG) |
+| IFC export | [aec-ifc-export](https://github.com/ichbinlucaskim/aec-ifc-export) | all → IFC4 (`IfcElementAssembly` + `IfcMember`) |
+| Data contract | [aec-schema](https://github.com/ichbinlucaskim/aec-schema) | JSON Schema linking every stage |
 
 See [`docs/architecture.md`](docs/architecture.md) for the per-stage contracts
 and the two-opening-map data flow.

@@ -81,9 +81,9 @@ should be, and defers where licensed engineering judgment is required.
 
 ## Component repos
 
-- [aec-schema](../../aec-schema) — JSON-Schema contract layer.
-- [wall-extract](../../wall-extract) — room polygons → wall segments.
-- [panel-decompose](../../panel-decompose) — walls → transport panels.
-- [framing-synth](../../framing-synth) — panels → framing + BOM.
-- [assembly-sequence](../../assembly-sequence) — framing → fabrication order.
-- [aec-ifc-export](../../aec-ifc-export) — everything → IFC4.
+- [aec-schema](https://github.com/ichbinlucaskim/aec-schema) — JSON-Schema contract layer.
+- [wall-extract](https://github.com/ichbinlucaskim/wall-extract) — room polygons → wall segments.
+- [panel-decompose](https://github.com/ichbinlucaskim/panel-decompose) — walls → transport panels.
+- [framing-synth](https://github.com/ichbinlucaskim/framing-synth) — panels → framing + BOM.
+- [assembly-sequence](https://github.com/ichbinlucaskim/assembly-sequence) — framing → fabrication order.
+- [aec-ifc-export](https://github.com/ichbinlucaskim/aec-ifc-export) — everything → IFC4.
