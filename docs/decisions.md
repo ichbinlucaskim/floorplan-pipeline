@@ -165,3 +165,52 @@ regression that matters here: a change in *what entities* the pipeline emits.
 so a diff to `tests/golden/` in a future PR is a visible, reviewable signal that
 pipeline output changed. This is the single permitted change to `floorplan-pipeline`
 in Stage 1: new tests and fixtures only, no source change.
+
+## ADR-006 — Surface IFC validation statements (additive extension of _ifc_is_valid)
+
+**Context.** The forthcoming persistence layer needs the individual
+`ifcopenshell.validate` statements (level, message, type, instance, attribute) to
+populate a `validation_errors` table. Those statements are already computed inside
+`_ifc_is_valid` and then discarded: the function collapses them to a single bool
+that lands in `summary["ifc_valid"]`. The one call site
+(`pipeline.py`, `summary["ifc_valid"] = _ifc_is_valid(ifc_path)`) and the tests
+that assert `summary["ifc_valid"] is True` require the bool to stay a genuine
+`bool`, and the Stage-1 golden lock byte-freezes `summary.json`, so no key may be
+added to the summary.
+
+**Decision.**
+1. Add `IfcValidation(NamedTuple)` = `(is_valid: bool, statements: tuple[dict, ...])`.
+2. Add `validate_ifc(path) -> IfcValidation`, which runs the validation once and
+   returns both the verdict and the raw statements.
+3. Reduce `_ifc_is_valid(path) -> bool` to `return validate_ifc(path).is_valid`.
+   Its signature and return type are unchanged, so the single existing call site
+   and every `is True` assertion keep working with no edit, and `summary.json`
+   gains no key (golden lock intact).
+4. Export `validate_ifc` and `IfcValidation` from the package so the service layer
+   can obtain statements from a produced `model.ifc` without a second, divergent
+   validation path (does not bypass the existing validation, reuses it).
+
+**Latent bug corrected in passing (flagged for review).** The original filter was
+`s.get("level") == "Error"` (capital E). ifcopenshell 0.8.5 logs every issue via
+`logger.error(...)`, so real statements carry `level == "error"` (lowercase) and
+the capital-E filter never matched: `_ifc_is_valid` returned `True` for *any*
+file, including an invalid one. No test caught it because the pipeline only ever
+validates its own valid output (zero statements, so both filters agree on
+`True`). `validate_ifc` uses the correct lowercase `"error"`. All 215 existing
+tests and the golden lock stay green because they never validate an invalid IFC;
+the behavior differs only on genuinely invalid input, where returning `False` is
+correct and is exactly what the persistence layer needs.
+
+**Rejected alternatives.**
+* *Change `_ifc_is_valid` to return the tuple directly* — rejected: it forces the
+  call site and the `is True` assertions to change, violating the additive
+  requirement.
+* *Return a truthy object (e.g. a bool subclass carrying statements)* — rejected as
+  a clever-but-surprising type; a NamedTuple on a separate function is clearer and
+  keeps the bool wrapper honest.
+* *Add the statements to `summary.json`* — rejected: breaks the Stage-1 byte-stable
+  golden and bloats the summary with verbose validation payloads. The service
+  re-derives statements from the artifact via `validate_ifc` instead.
+* *Preserve the capital-E filter to guarantee zero behavior change* — rejected:
+  surfacing statements while computing `is_valid` from a filter that can never
+  match would ship a knowingly-wrong verdict, defeating the purpose.
