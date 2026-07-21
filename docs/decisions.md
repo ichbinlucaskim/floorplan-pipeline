@@ -116,3 +116,52 @@ characterized, non-blocking items remain (see README "Known items"): one
 `front_door` per plan is dropped because `wall-extract`'s `OPENING_KEYS` is
 `{door, window}`; and a small, bounded number of short `sill` members tessellate
 to zero verts in `ifcopenshell.geom` while keeping valid placements.
+
+## ADR-005 — Byte-stable golden lock of pipeline output (before the service layer)
+
+**Context.** A persistence and service layer (`floorplan-service`) will wrap the
+pipeline. Before it is built we must lock what `run_pipeline` produces today, so
+any behavioral drift introduced by the wrapper fails a test. The existing golden
+tests (`test_golden_endtoend.py`, `test_artifacts_valid.py`) assert IFC
+*geometry* and validity; they do **not** notice a change to the JSON artifacts
+the pipeline emits, which is precisely the data the service will project into a
+database. That is the gap this ADR closes.
+
+**Decision.** `tests/test_golden_pipeline_000.py` runs the real pipeline for the
+committed synthetic plan (`pipeline-000`, input `examples/input_rooms.json`, so it
+is reproducible from the repo alone with no ResPlan dataset) and asserts:
+
+1. The seven JSON artifacts (`walls`, `openings`, `panels`, `framing`, `bom`,
+   `member_sequences`, `panel_sequence`) are **byte-identical** to committed
+   golden fixtures in `tests/golden/pipeline-000/`.
+2. `summary.json` is byte-identical **after** normalizing one field: the
+   `ifc_path` value, which embeds the absolute output directory (environment- and
+   run-dependent). Nothing else in the summary is normalized.
+3. `model.ifc` matches a committed **structural signature** (IFC schema,
+   validation error count, per-entity-type counts), not its bytes.
+
+**Why `model.ifc` is not byte-locked.** Measured directly: two runs of the same
+input differ on 430 of 2677 lines even after normalizing the header timestamp and
+every GlobalId. The residual variation is IfcOpenShell emitting a random GlobalId
+per entity, a wall-clock header timestamp, nondeterministic set ordering
+(`IfcUnitAssignment`, aggregation sets), and nondeterministic instance-id (`#N`)
+numbering. None are values the pipeline controls or that should be stable.
+Byte-locking would require a full IFC canonicalizer (re-number every instance in a
+canonical order, sort every set) -- fragile, large, and it would guarantee nothing
+the geometry/validity tests do not already cover. The structural signature is
+deterministic across runs (verified: identical between two runs) and catches the
+regression that matters here: a change in *what entities* the pipeline emits.
+
+**Rejected alternatives.**
+* *Lock `model.ifc` bytes with a canonicalizer* -- rejected as over-engineering for
+  no coverage gain over the signature plus existing geometry tests.
+* *Assert only spot-checked JSON fields* -- rejected; a byte-stable lock is the
+  point. Spot-checks let unasserted fields drift silently.
+* *Use a ResPlan plan (e.g. the hero) as the golden* -- rejected; the ResPlan
+  dataset is uncommitted (`data/` is gitignored), so the lock would not be
+  reproducible in CI or from the repo alone. `pipeline-000` runs unconditionally.
+
+**Consequences.** Regenerating the goldens is a deliberate act (re-run and commit),
+so a diff to `tests/golden/` in a future PR is a visible, reviewable signal that
+pipeline output changed. This is the single permitted change to `floorplan-pipeline`
+in Stage 1: new tests and fixtures only, no source change.

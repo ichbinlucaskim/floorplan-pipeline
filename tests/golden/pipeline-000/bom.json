@@ -1,0 +1,163 @@
+[
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-000-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 13,
+        "total_length_mm": 34040.0
+      }
+    ],
+    "sheathing_area_m2": 8.7768
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-000-panel-001",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 5,
+        "total_length_mm": 5248.0
+      }
+    ],
+    "sheathing_area_m2": 0.4876
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-001-panel-000",
+    "items": [
+      {
+        "section": "2x4",
+        "count": 17,
+        "total_length_mm": 35482.0
+      }
+    ],
+    "sheathing_area_m2": 7.4115
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-002-panel-000",
+    "items": [
+      {
+        "section": "2x4",
+        "count": 18,
+        "total_length_mm": 39486.0
+      }
+    ],
+    "sheathing_area_m2": 8.7768
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-002-panel-001",
+    "items": [
+      {
+        "section": "2x4",
+        "count": 5,
+        "total_length_mm": 5248.0
+      }
+    ],
+    "sheathing_area_m2": 0.4876
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-003-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 12,
+        "total_length_mm": 30036.0
+      }
+    ],
+    "sheathing_area_m2": 7.4115
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-004-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 12,
+        "total_length_mm": 30036.0
+      }
+    ],
+    "sheathing_area_m2": 7.4115
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-005-panel-000",
+    "items": [
+      {
+        "section": "2x4",
+        "count": 1,
+        "total_length_mm": 760.0
+      },
+      {
+        "section": "2x6",
+        "count": 20,
+        "total_length_mm": 37876.0
+      }
+    ],
+    "sheathing_area_m2": 7.4115
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-006-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 12,
+        "total_length_mm": 30036.0
+      }
+    ],
+    "sheathing_area_m2": 7.4115
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-007-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 11,
+        "total_length_mm": 26572.0
+      }
+    ],
+    "sheathing_area_m2": 6.4851
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-008-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 13,
+        "total_length_mm": 34040.0
+      }
+    ],
+    "sheathing_area_m2": 8.7768
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-008-panel-001",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 5,
+        "total_length_mm": 5248.0
+      }
+    ],
+    "sheathing_area_m2": 0.4876
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-009-panel-000",
+    "items": [
+      {
+        "section": "2x6",
+        "count": 11,
+        "total_length_mm": 26572.0
+      }
+    ],
+    "sheathing_area_m2": 6.4851
+  }
+]

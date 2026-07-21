@@ -1,0 +1,242 @@
+[
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-000-panel-000",
+    "parent_wall": "pipeline-000-wall-000",
+    "start": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "end": {
+      "x": 3600.0,
+      "y": 0.0
+    },
+    "length": 3600.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-000-panel-001",
+    "parent_wall": "pipeline-000-wall-000",
+    "start": {
+      "x": 3600.0,
+      "y": 0.0
+    },
+    "end": {
+      "x": 3800.0,
+      "y": 0.0
+    },
+    "length": 200.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-001-panel-000",
+    "parent_wall": "pipeline-000-wall-001",
+    "start": {
+      "x": 3800.0,
+      "y": 0.0
+    },
+    "end": {
+      "x": 3800.0,
+      "y": 3040.0
+    },
+    "length": 3040.0,
+    "height": 2438.0,
+    "panel_type": "interior",
+    "load_bearing": false,
+    "openings": [
+      "door_0"
+    ]
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-002-panel-000",
+    "parent_wall": "pipeline-000-wall-002",
+    "start": {
+      "x": 0.0,
+      "y": 3040.0
+    },
+    "end": {
+      "x": 3600.0,
+      "y": 3040.0
+    },
+    "length": 3600.0,
+    "height": 2438.0,
+    "panel_type": "interior",
+    "load_bearing": false,
+    "openings": [
+      "door_1"
+    ]
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-002-panel-001",
+    "parent_wall": "pipeline-000-wall-002",
+    "start": {
+      "x": 3600.0,
+      "y": 3040.0
+    },
+    "end": {
+      "x": 3800.0,
+      "y": 3040.0
+    },
+    "length": 200.0,
+    "height": 2438.0,
+    "panel_type": "interior",
+    "load_bearing": false,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-003-panel-000",
+    "parent_wall": "pipeline-000-wall-003",
+    "start": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "end": {
+      "x": 0.0,
+      "y": 3040.0
+    },
+    "length": 3040.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-004-panel-000",
+    "parent_wall": "pipeline-000-wall-004",
+    "start": {
+      "x": 3800.0,
+      "y": 0.0
+    },
+    "end": {
+      "x": 6840.0,
+      "y": 0.0
+    },
+    "length": 3040.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-005-panel-000",
+    "parent_wall": "pipeline-000-wall-005",
+    "start": {
+      "x": 6840.0,
+      "y": 0.0
+    },
+    "end": {
+      "x": 6840.0,
+      "y": 3040.0
+    },
+    "length": 3040.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": [
+      "window_0"
+    ]
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-006-panel-000",
+    "parent_wall": "pipeline-000-wall-006",
+    "start": {
+      "x": 3800.0,
+      "y": 3040.0
+    },
+    "end": {
+      "x": 6840.0,
+      "y": 3040.0
+    },
+    "length": 3040.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-007-panel-000",
+    "parent_wall": "pipeline-000-wall-007",
+    "start": {
+      "x": 3800.0,
+      "y": 3040.0
+    },
+    "end": {
+      "x": 3800.0,
+      "y": 5700.0
+    },
+    "length": 2660.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-008-panel-000",
+    "parent_wall": "pipeline-000-wall-008",
+    "start": {
+      "x": 0.0,
+      "y": 5700.0
+    },
+    "end": {
+      "x": 3600.0,
+      "y": 5700.0
+    },
+    "length": 3600.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-008-panel-001",
+    "parent_wall": "pipeline-000-wall-008",
+    "start": {
+      "x": 3600.0,
+      "y": 5700.0
+    },
+    "end": {
+      "x": 3800.0,
+      "y": 5700.0
+    },
+    "length": 200.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "pipeline-000-wall-009-panel-000",
+    "parent_wall": "pipeline-000-wall-009",
+    "start": {
+      "x": 0.0,
+      "y": 3040.0
+    },
+    "end": {
+      "x": 0.0,
+      "y": 5700.0
+    },
+    "length": 2660.0,
+    "height": 2438.0,
+    "panel_type": "exterior",
+    "load_bearing": true,
+    "openings": []
+  }
+]

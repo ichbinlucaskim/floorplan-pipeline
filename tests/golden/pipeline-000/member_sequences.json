@@ -1,0 +1,1460 @@
+{
+  "pipeline-000-wall-000-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-000-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-000-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-000-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-000-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-000-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-000-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-000-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-000-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-000-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-000-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-000-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-000-panel-000-m012",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      },
+      {
+        "order": 12,
+        "target_id": "pipeline-000-wall-000-panel-000-m013",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-000-m001",
+          "pipeline-000-wall-000-panel-000-m002",
+          "pipeline-000-wall-000-panel-000-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-000-panel-001": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-000-panel-001-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-000-panel-001-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-000-panel-001-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-000-panel-001-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-001-m001",
+          "pipeline-000-wall-000-panel-001-m002",
+          "pipeline-000-wall-000-panel-001-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-000-panel-001-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-000-panel-001-m001",
+          "pipeline-000-wall-000-panel-001-m002",
+          "pipeline-000-wall-000-panel-001-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-001-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-001-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-001-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-001-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-001-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-001-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-001-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-001-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-001-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-001-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-001-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-001-panel-000-m011",
+        "action": "set_king_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-001-panel-000-m012",
+        "action": "set_king_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m001",
+          "pipeline-000-wall-001-panel-000-m002",
+          "pipeline-000-wall-001-panel-000-m003"
+        ]
+      },
+      {
+        "order": 12,
+        "target_id": "pipeline-000-wall-001-panel-000-m013",
+        "action": "set_jack_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m011",
+          "pipeline-000-wall-001-panel-000-m012"
+        ]
+      },
+      {
+        "order": 13,
+        "target_id": "pipeline-000-wall-001-panel-000-m014",
+        "action": "set_jack_stud",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m011",
+          "pipeline-000-wall-001-panel-000-m012"
+        ]
+      },
+      {
+        "order": 14,
+        "target_id": "pipeline-000-wall-001-panel-000-m015",
+        "action": "set_header",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m011",
+          "pipeline-000-wall-001-panel-000-m012",
+          "pipeline-000-wall-001-panel-000-m013",
+          "pipeline-000-wall-001-panel-000-m014"
+        ]
+      },
+      {
+        "order": 15,
+        "target_id": "pipeline-000-wall-001-panel-000-m016",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m015"
+        ]
+      },
+      {
+        "order": 16,
+        "target_id": "pipeline-000-wall-001-panel-000-m017",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-001-panel-000-m015"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-002-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-002-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-002-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-002-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-002-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-002-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-002-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-002-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-002-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-002-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-002-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-002-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-002-panel-000-m012",
+        "action": "set_king_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 12,
+        "target_id": "pipeline-000-wall-002-panel-000-m013",
+        "action": "set_king_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m001",
+          "pipeline-000-wall-002-panel-000-m002",
+          "pipeline-000-wall-002-panel-000-m003"
+        ]
+      },
+      {
+        "order": 13,
+        "target_id": "pipeline-000-wall-002-panel-000-m014",
+        "action": "set_jack_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m012",
+          "pipeline-000-wall-002-panel-000-m013"
+        ]
+      },
+      {
+        "order": 14,
+        "target_id": "pipeline-000-wall-002-panel-000-m015",
+        "action": "set_jack_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m012",
+          "pipeline-000-wall-002-panel-000-m013"
+        ]
+      },
+      {
+        "order": 15,
+        "target_id": "pipeline-000-wall-002-panel-000-m016",
+        "action": "set_header",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m012",
+          "pipeline-000-wall-002-panel-000-m013",
+          "pipeline-000-wall-002-panel-000-m014",
+          "pipeline-000-wall-002-panel-000-m015"
+        ]
+      },
+      {
+        "order": 16,
+        "target_id": "pipeline-000-wall-002-panel-000-m017",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m016"
+        ]
+      },
+      {
+        "order": 17,
+        "target_id": "pipeline-000-wall-002-panel-000-m018",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-000-m016"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-002-panel-001": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-002-panel-001-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-002-panel-001-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-002-panel-001-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-002-panel-001-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-001-m001",
+          "pipeline-000-wall-002-panel-001-m002",
+          "pipeline-000-wall-002-panel-001-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-002-panel-001-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-002-panel-001-m001",
+          "pipeline-000-wall-002-panel-001-m002",
+          "pipeline-000-wall-002-panel-001-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-003-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-003-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-003-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-003-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-003-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-003-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-003-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-003-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-003-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-003-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-003-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-003-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-003-panel-000-m012",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-003-panel-000-m001",
+          "pipeline-000-wall-003-panel-000-m002",
+          "pipeline-000-wall-003-panel-000-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-004-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-004-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-004-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-004-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-004-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-004-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-004-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-004-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-004-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-004-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-004-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-004-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-004-panel-000-m012",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-004-panel-000-m001",
+          "pipeline-000-wall-004-panel-000-m002",
+          "pipeline-000-wall-004-panel-000-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-005-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-005-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-005-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-005-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-005-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-005-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-005-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-005-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-005-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-005-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-005-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-005-panel-000-m011",
+        "action": "set_king_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-005-panel-000-m012",
+        "action": "set_king_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m001",
+          "pipeline-000-wall-005-panel-000-m002",
+          "pipeline-000-wall-005-panel-000-m003"
+        ]
+      },
+      {
+        "order": 12,
+        "target_id": "pipeline-000-wall-005-panel-000-m013",
+        "action": "set_jack_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m011",
+          "pipeline-000-wall-005-panel-000-m012"
+        ]
+      },
+      {
+        "order": 13,
+        "target_id": "pipeline-000-wall-005-panel-000-m014",
+        "action": "set_jack_stud",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m011",
+          "pipeline-000-wall-005-panel-000-m012"
+        ]
+      },
+      {
+        "order": 14,
+        "target_id": "pipeline-000-wall-005-panel-000-m015",
+        "action": "set_header",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m011",
+          "pipeline-000-wall-005-panel-000-m012",
+          "pipeline-000-wall-005-panel-000-m013",
+          "pipeline-000-wall-005-panel-000-m014"
+        ]
+      },
+      {
+        "order": 15,
+        "target_id": "pipeline-000-wall-005-panel-000-m016",
+        "action": "set_header",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m011",
+          "pipeline-000-wall-005-panel-000-m012",
+          "pipeline-000-wall-005-panel-000-m013",
+          "pipeline-000-wall-005-panel-000-m014"
+        ]
+      },
+      {
+        "order": 16,
+        "target_id": "pipeline-000-wall-005-panel-000-m017",
+        "action": "set_sill",
+        "depends_on": []
+      },
+      {
+        "order": 17,
+        "target_id": "pipeline-000-wall-005-panel-000-m018",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m015",
+          "pipeline-000-wall-005-panel-000-m016",
+          "pipeline-000-wall-005-panel-000-m017"
+        ]
+      },
+      {
+        "order": 18,
+        "target_id": "pipeline-000-wall-005-panel-000-m019",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m015",
+          "pipeline-000-wall-005-panel-000-m016",
+          "pipeline-000-wall-005-panel-000-m017"
+        ]
+      },
+      {
+        "order": 19,
+        "target_id": "pipeline-000-wall-005-panel-000-m020",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m015",
+          "pipeline-000-wall-005-panel-000-m016",
+          "pipeline-000-wall-005-panel-000-m017"
+        ]
+      },
+      {
+        "order": 20,
+        "target_id": "pipeline-000-wall-005-panel-000-m021",
+        "action": "nail_cripple",
+        "depends_on": [
+          "pipeline-000-wall-005-panel-000-m015",
+          "pipeline-000-wall-005-panel-000-m016",
+          "pipeline-000-wall-005-panel-000-m017"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-006-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-006-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-006-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-006-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-006-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-006-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-006-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-006-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-006-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-006-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-006-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-006-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-006-panel-000-m012",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-006-panel-000-m001",
+          "pipeline-000-wall-006-panel-000-m002",
+          "pipeline-000-wall-006-panel-000-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-007-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-007-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-007-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-007-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-007-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-007-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-007-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-007-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-007-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-007-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-007-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-007-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-007-panel-000-m001",
+          "pipeline-000-wall-007-panel-000-m002",
+          "pipeline-000-wall-007-panel-000-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-008-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-008-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-008-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-008-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-008-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-008-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-008-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-008-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-008-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-008-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-008-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-008-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 11,
+        "target_id": "pipeline-000-wall-008-panel-000-m012",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      },
+      {
+        "order": 12,
+        "target_id": "pipeline-000-wall-008-panel-000-m013",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-000-m001",
+          "pipeline-000-wall-008-panel-000-m002",
+          "pipeline-000-wall-008-panel-000-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-008-panel-001": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-008-panel-001-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-008-panel-001-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-008-panel-001-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-008-panel-001-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-001-m001",
+          "pipeline-000-wall-008-panel-001-m002",
+          "pipeline-000-wall-008-panel-001-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-008-panel-001-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-008-panel-001-m001",
+          "pipeline-000-wall-008-panel-001-m002",
+          "pipeline-000-wall-008-panel-001-m003"
+        ]
+      }
+    ]
+  },
+  "pipeline-000-wall-009-panel-000": {
+    "schema_version": "0.1.0",
+    "level": "member",
+    "steps": [
+      {
+        "order": 0,
+        "target_id": "pipeline-000-wall-009-panel-000-m001",
+        "action": "place_bottom_plate",
+        "depends_on": []
+      },
+      {
+        "order": 1,
+        "target_id": "pipeline-000-wall-009-panel-000-m002",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 2,
+        "target_id": "pipeline-000-wall-009-panel-000-m003",
+        "action": "place_top_plate",
+        "depends_on": []
+      },
+      {
+        "order": 3,
+        "target_id": "pipeline-000-wall-009-panel-000-m004",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 4,
+        "target_id": "pipeline-000-wall-009-panel-000-m005",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 5,
+        "target_id": "pipeline-000-wall-009-panel-000-m006",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 6,
+        "target_id": "pipeline-000-wall-009-panel-000-m007",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 7,
+        "target_id": "pipeline-000-wall-009-panel-000-m008",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 8,
+        "target_id": "pipeline-000-wall-009-panel-000-m009",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 9,
+        "target_id": "pipeline-000-wall-009-panel-000-m010",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      },
+      {
+        "order": 10,
+        "target_id": "pipeline-000-wall-009-panel-000-m011",
+        "action": "nail_stud",
+        "depends_on": [
+          "pipeline-000-wall-009-panel-000-m001",
+          "pipeline-000-wall-009-panel-000-m002",
+          "pipeline-000-wall-009-panel-000-m003"
+        ]
+      }
+    ]
+  }
+}
