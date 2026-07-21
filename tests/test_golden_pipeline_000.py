@@ -22,6 +22,13 @@ Normalization (see docs/decisions.md, ADR on the golden lock):
   structural signature (IFC schema, validation error count, per-entity-type
   counts), which is deterministic across runs. IFC geometry remains covered by
   ``test_golden_endtoend.py`` and ``test_artifacts_valid.py``.
+
+The IFC signature's ``error_count`` is computed through ``validate_ifc`` at the
+FULL EXPRESS WHERE-rule profile (``express_rules=True``), so it locks the strong
+conformance claim. The earlier version used an inline ``level == "Error"`` filter
+(the capital-E bug from Stage 2) at the default profile, comparing a buggy value
+against a golden generated with the same bug -- self-referential, and it would
+have passed even with real errors present.
 """
 import json
 import re
@@ -29,9 +36,8 @@ from collections import Counter
 from pathlib import Path
 
 import ifcopenshell
-import ifcopenshell.validate
 
-from floorplan_pipeline import PipelineConfig, run_pipeline
+from floorplan_pipeline import PipelineConfig, run_pipeline, validate_ifc
 
 GOLDEN = Path(__file__).parent / "golden" / "pipeline-000"
 INPUT = Path(__file__).parent.parent / "examples" / "input_rooms.json"
@@ -55,11 +61,14 @@ def _normalize_summary(text: str) -> str:
 
 def _ifc_signature(path: Path) -> dict:
     model = ifcopenshell.open(str(path))
-    log = ifcopenshell.validate.json_logger()
-    ifcopenshell.validate.validate(str(path), log)
-    errors = sum(1 for s in log.statements if s.get("level") == "Error")
+    # Validate at the full EXPRESS WHERE-rule profile through the corrected
+    # validate_ifc, so error_count locks the strong claim (0 errors under strict
+    # IFC4 conformance), not the weak default-profile one.
+    result = validate_ifc(path, express_rules=True)
+    errors = sum(1 for s in result.statements if s.get("level") == "error")
     return {
         "schema": model.schema,
+        "express_rules": True,
         "error_count": errors,
         "entity_counts": dict(sorted(Counter(e.is_a() for e in model).items())),
     }

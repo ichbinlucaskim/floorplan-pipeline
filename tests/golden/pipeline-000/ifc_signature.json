@@ -1,5 +1,6 @@
 {
   "schema": "IFC4",
+  "express_rules": true,
   "error_count": 0,
   "entity_counts": {
     "IfcApplication": 1,

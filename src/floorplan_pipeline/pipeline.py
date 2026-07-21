@@ -41,17 +41,22 @@ class IfcValidation(NamedTuple):
     statements: tuple[dict, ...]
 
 
-def validate_ifc(path: Path) -> IfcValidation:
+def validate_ifc(path: Path, *, express_rules: bool = False) -> IfcValidation:
     """Validate an IFC file, returning both the verdict and the raw statements.
 
     ``ifcopenshell.validate`` (0.8.5) logs every issue via ``logger.error(...)``,
     so failure statements carry ``level == "error"`` (lowercase). A file is valid
     iff it produced no error-level statements.
+
+    ``express_rules`` selects the depth. ``False`` (default) runs schema, attribute,
+    and reference validation. ``True`` additionally runs the full EXPRESS WHERE-rule
+    suite (the strict IFC4 conformance profile). The default preserves the behavior
+    the pipeline summary and :func:`_ifc_is_valid` rely on.
     """
     import ifcopenshell.validate
 
     logger = ifcopenshell.validate.json_logger()
-    ifcopenshell.validate.validate(str(path), logger)
+    ifcopenshell.validate.validate(str(path), logger, express_rules=express_rules)
     statements = tuple(logger.statements)
     is_valid = not [s for s in statements if s.get("level") == "error"]
     return IfcValidation(is_valid=is_valid, statements=statements)
