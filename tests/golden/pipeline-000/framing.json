@@ -1,0 +1,2728 @@
+[
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-000-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-000-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m012",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-000-m013",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 13
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-000-panel-001",
+    "members": [
+      {
+        "id": "pipeline-000-wall-000-panel-001-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-001-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-001-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-001-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-000-panel-001-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 5
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-001-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-001-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x4",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x4",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m011",
+        "type": "king",
+        "role": "king_stud",
+        "start": {
+          "x": 1083.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1083.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m012",
+        "type": "king",
+        "role": "king_stud",
+        "start": {
+          "x": 1957.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1957.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m013",
+        "type": "jack",
+        "role": "jack_stud",
+        "start": {
+          "x": 1121.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1121.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "section": "2x4",
+        "length": 2032.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m014",
+        "type": "jack",
+        "role": "jack_stud",
+        "start": {
+          "x": 1919.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1919.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "section": "2x4",
+        "length": 2032.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m015",
+        "type": "header",
+        "role": "header",
+        "start": {
+          "x": 1083.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "end": {
+          "x": 1957.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "section": "2x4",
+        "length": 874.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m016",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2108.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 254.0
+      },
+      {
+        "id": "pipeline-000-wall-001-panel-000-m017",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2108.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 254.0
+      }
+    ],
+    "member_count": 17
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-002-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-002-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x4",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x4",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m012",
+        "type": "king",
+        "role": "king_stud",
+        "start": {
+          "x": 1463.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1463.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m013",
+        "type": "king",
+        "role": "king_stud",
+        "start": {
+          "x": 2337.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2337.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m014",
+        "type": "jack",
+        "role": "jack_stud",
+        "start": {
+          "x": 1501.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1501.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "section": "2x4",
+        "length": 2032.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m015",
+        "type": "jack",
+        "role": "jack_stud",
+        "start": {
+          "x": 2299.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2299.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "section": "2x4",
+        "length": 2032.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m016",
+        "type": "header",
+        "role": "header",
+        "start": {
+          "x": 1463.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "end": {
+          "x": 2337.0,
+          "y": 0.0,
+          "z": 2070.0
+        },
+        "section": "2x4",
+        "length": 874.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m017",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2108.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 254.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-000-m018",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2108.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 254.0
+      }
+    ],
+    "member_count": 18
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-002-panel-001",
+    "members": [
+      {
+        "id": "pipeline-000-wall-002-panel-001-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x4",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-001-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-001-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x4",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-001-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-002-panel-001-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x4",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 5
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-003-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-003-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-003-panel-000-m012",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 12
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-004-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-004-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-004-panel-000-m012",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 12
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-005-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-005-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m011",
+        "type": "king",
+        "role": "king_stud",
+        "start": {
+          "x": 1083.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1083.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m012",
+        "type": "king",
+        "role": "king_stud",
+        "start": {
+          "x": 1957.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1957.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m013",
+        "type": "jack",
+        "role": "jack_stud",
+        "start": {
+          "x": 1121.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1121.0,
+          "y": 0.0,
+          "z": 2138.0
+        },
+        "section": "2x6",
+        "length": 2100.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m014",
+        "type": "jack",
+        "role": "jack_stud",
+        "start": {
+          "x": 1919.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1919.0,
+          "y": 0.0,
+          "z": 2138.0
+        },
+        "section": "2x6",
+        "length": 2100.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m015",
+        "type": "header",
+        "role": "header",
+        "start": {
+          "x": 1083.0,
+          "y": 0.0,
+          "z": 2138.0
+        },
+        "end": {
+          "x": 1957.0,
+          "y": 0.0,
+          "z": 2138.0
+        },
+        "section": "2x6",
+        "length": 874.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m016",
+        "type": "header",
+        "role": "header",
+        "start": {
+          "x": 1083.0,
+          "y": 38.0,
+          "z": 2138.0
+        },
+        "end": {
+          "x": 1957.0,
+          "y": 38.0,
+          "z": 2138.0
+        },
+        "section": "2x6",
+        "length": 874.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m017",
+        "type": "sill",
+        "role": "sill",
+        "start": {
+          "x": 1140.0,
+          "y": 0.0,
+          "z": 938.0
+        },
+        "end": {
+          "x": 1900.0,
+          "y": 0.0,
+          "z": 938.0
+        },
+        "section": "2x4",
+        "length": 760.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m018",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 900.0
+        },
+        "section": "2x6",
+        "length": 862.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m019",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 900.0
+        },
+        "section": "2x6",
+        "length": 862.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m020",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2278.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 84.0
+      },
+      {
+        "id": "pipeline-000-wall-005-panel-000-m021",
+        "type": "cripple",
+        "role": "cripple_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2278.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 84.0
+      }
+    ],
+    "member_count": 21
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-006-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-006-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 3040.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-006-panel-000-m012",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3040.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 12
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-007-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-007-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 2660.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2660.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 2660.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-007-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 11
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-008-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-008-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 3600.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m012",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-000-m013",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 3600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 13
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-008-panel-001",
+    "members": [
+      {
+        "id": "pipeline-000-wall-008-panel-001-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-001-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-001-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 200.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-001-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-008-panel-001-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 5
+  },
+  {
+    "schema_version": "0.1.0",
+    "panel_id": "pipeline-000-wall-009-panel-000",
+    "members": [
+      {
+        "id": "pipeline-000-wall-009-panel-000-m001",
+        "type": "plate",
+        "role": "bottom_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "section": "2x6",
+        "length": 2660.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m002",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2660.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m003",
+        "type": "plate",
+        "role": "top_plate",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 2400.0
+        },
+        "section": "2x6",
+        "length": 2660.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m004",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m005",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m006",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 800.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m007",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1200.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m008",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 1600.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m009",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2000.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m010",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2400.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      },
+      {
+        "id": "pipeline-000-wall-009-panel-000-m011",
+        "type": "stud",
+        "role": "standard_stud",
+        "start": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "end": {
+          "x": 2660.0,
+          "y": 0.0,
+          "z": 2362.0
+        },
+        "section": "2x6",
+        "length": 2324.0
+      }
+    ],
+    "member_count": 11
+  }
+]

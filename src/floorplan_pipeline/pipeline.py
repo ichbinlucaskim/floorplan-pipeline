@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import NamedTuple
 
 from aec_schema import (
     validate_bom,
@@ -25,12 +26,45 @@ def _write(path: Path, obj: object) -> None:
     path.write_text(json.dumps(obj, indent=2))
 
 
-def _ifc_is_valid(path: Path) -> bool:
+class IfcValidation(NamedTuple):
+    """Result of validating an IFC file.
+
+    ``is_valid`` is the collapsed boolean verdict the pipeline summary reports.
+    ``statements`` are the raw ``ifcopenshell.validate`` statement dicts (keys:
+    ``level``, ``message``, ``type``, ``instance``, ``attribute``) that a
+    downstream persistence layer records per stage. Surfacing them here is what
+    lets a service store validation failures without re-running validation with
+    a different code path.
+    """
+
+    is_valid: bool
+    statements: tuple[dict, ...]
+
+
+def validate_ifc(path: Path) -> IfcValidation:
+    """Validate an IFC file, returning both the verdict and the raw statements.
+
+    ``ifcopenshell.validate`` (0.8.5) logs every issue via ``logger.error(...)``,
+    so failure statements carry ``level == "error"`` (lowercase). A file is valid
+    iff it produced no error-level statements.
+    """
     import ifcopenshell.validate
 
     logger = ifcopenshell.validate.json_logger()
     ifcopenshell.validate.validate(str(path), logger)
-    return not [s for s in logger.statements if s.get("level") == "Error"]
+    statements = tuple(logger.statements)
+    is_valid = not [s for s in statements if s.get("level") == "error"]
+    return IfcValidation(is_valid=is_valid, statements=statements)
+
+
+def _ifc_is_valid(path: Path) -> bool:
+    """Backward-compatible boolean wrapper over :func:`validate_ifc`.
+
+    Existing callers (the pipeline summary) rely on a plain ``bool`` return; this
+    preserves that exactly while the statements are available via
+    :func:`validate_ifc`.
+    """
+    return validate_ifc(path).is_valid
 
 
 def run_pipeline(

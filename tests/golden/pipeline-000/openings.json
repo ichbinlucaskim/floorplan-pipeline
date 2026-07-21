@@ -1,0 +1,32 @@
+{
+  "door_0": {
+    "schema_version": "0.1.0",
+    "id": "door_0",
+    "type": "door",
+    "host_wall": "pipeline-000-wall-001",
+    "position": 1520.0,
+    "width": 760.0,
+    "height": 2032.0,
+    "swing_direction": "none"
+  },
+  "door_1": {
+    "schema_version": "0.1.0",
+    "id": "door_1",
+    "type": "door",
+    "host_wall": "pipeline-000-wall-002",
+    "position": 1900.0,
+    "width": 760.0,
+    "height": 2032.0,
+    "swing_direction": "none"
+  },
+  "window_0": {
+    "schema_version": "0.1.0",
+    "id": "window_0",
+    "type": "window",
+    "host_wall": "pipeline-000-wall-005",
+    "position": 1520.0,
+    "width": 760.0,
+    "height": 1200.0,
+    "swing_direction": "none"
+  }
+}

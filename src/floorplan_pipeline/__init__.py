@@ -14,7 +14,7 @@ Usage
 from __future__ import annotations
 
 from .config import PipelineConfig
-from .pipeline import run_pipeline
+from .pipeline import IfcValidation, run_pipeline, validate_ifc
 from .resplan_input import (
     load_resplan_plan,
     plan_id_str,
@@ -29,5 +29,7 @@ __all__ = [
     "load_resplan_plan",
     "record_to_rooms",
     "plan_id_str",
+    "validate_ifc",
+    "IfcValidation",
 ]
 __version__ = "0.1.0"

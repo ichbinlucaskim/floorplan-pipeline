@@ -1,0 +1,17 @@
+{
+  "plan_id": "pipeline-000",
+  "rooms": 6,
+  "walls": 10,
+  "panels": 13,
+  "openings": 3,
+  "framing_panels": 13,
+  "framing_members": 155,
+  "member_sequences": 13,
+  "panel_steps": 13,
+  "ifc_path": "<IFC_PATH>",
+  "ifc_valid": true,
+  "skipped": 0,
+  "skipped_panels": 0,
+  "skipped_framing": 0,
+  "skips": []
+}
