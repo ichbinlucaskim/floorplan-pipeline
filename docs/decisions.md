@@ -214,3 +214,51 @@ correct and is exactly what the persistence layer needs.
 * *Preserve the capital-E filter to guarantee zero behavior change* — rejected:
   surfacing statements while computing `is_valid` from a filter that can never
   match would ship a knowingly-wrong verdict, defeating the purpose.
+
+## ADR-007 — Golden IFC signature validates at the full EXPRESS profile
+
+**Context.** Stage 2 verification found that the Stage 1 golden IFC signature
+computed `error_count` with the same capital-`"Error"` inline filter that Stage 2
+identified as broken, at ifcopenshell's default profile, and compared it against a
+golden generated with that same filter. It was self-referential: it would have
+passed even if real errors existed, so the lock did not actually verify
+error-freeness. Separately, the default profile does not run the IFC4 EXPRESS
+WHERE rules, under which the exported IFC in fact had violations (fixed in
+aec-ifc-export ADR-009).
+
+**Decision.**
+1. Compute `error_count` through the corrected `validate_ifc` (lowercase `"error"`,
+   the actual level ifcopenshell emits), not an inline filter.
+2. Validate at the full EXPRESS WHERE-rule profile. `validate_ifc` gained an
+   additive keyword-only `express_rules: bool = False`; the signature calls
+   `validate_ifc(path, express_rules=True)`. The default is unchanged, so
+   `_ifc_is_valid`, the pipeline summary, and every existing `validate_ifc` caller
+   behave exactly as before.
+3. Record the profile in the signature itself with an `express_rules: true` key,
+   so the fixture is self-documenting about what its `error_count` means.
+
+**Why the strong profile, not the default.** The point of the lock is to protect a
+claim ("0 IFC validation errors"). The default profile validates schema and
+references but not the WHERE rules, so a "0" there is the weak claim. Locking at
+`express_rules=True` means a reappearance of any WHERE-rule violation (for example
+a future change that relabels a boolean body as `SweptSolid` again) fails this
+test. Locking the strong claim is the whole reason to have the signature.
+
+**Fixture change.** `tests/golden/pipeline-000/ifc_signature.json` gains one line,
+`"express_rules": true`. The `error_count` value stays `0` and `entity_counts` is
+byte-identical, because the aec-ifc-export fix is attribute-only (it relabels
+representations and sets an owner-history date; it adds and removes no entities).
+The `0` now means "0 errors under strict IFC4 conformance, corrected filter",
+where before it meant "0 under a filter that could never match".
+
+**Cross-repo ordering.** This signature passes only when the aec-ifc-export
+WHERE-rule fix (ADR-009) is present. In this repo's CI, aec-ifc-export is checked
+out at `main`, so the aec-ifc-export fix must merge to its `main` before this
+change's CI goes green. Verified green locally with the fix installed editable.
+
+**Rejected alternatives.**
+* *Keep the default profile and only fix the filter casing* — rejected: still locks
+  the weak claim and would miss WHERE-rule regressions.
+* *Compute `error_count` with a corrected inline filter instead of `validate_ifc`* —
+  rejected: duplicates the validation logic the package already exposes; the whole
+  Stage 2 point was one validation path.
